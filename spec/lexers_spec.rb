@@ -45,7 +45,7 @@ describe Rugments::Lexer do
     it 'returns the filenames array' do
       expect(lexer.filenames).to eq(
         %w(*.rb *.ruby *.rbw *.rake *.gemspec *.podspec Rakefile Guardfile
-           Gemfile Capfile Podfile Vagrantfile *.ru *.prawn)
+           Gemfile Capfile Podfile Vagrantfile *.ru *.prawn Berksfile)
       )
     end
   end

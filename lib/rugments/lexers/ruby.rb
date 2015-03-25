@@ -7,7 +7,7 @@ module Rugments
       aliases 'rb'
       filenames '*.rb', '*.ruby', '*.rbw', '*.rake', '*.gemspec', '*.podspec',
                 'Rakefile', 'Guardfile', 'Gemfile', 'Capfile', 'Podfile',
-                'Vagrantfile', '*.ru', '*.prawn'
+                'Vagrantfile', '*.ru', '*.prawn', 'Berksfile'
 
       mimetypes 'text/x-ruby', 'application/x-ruby'
 
